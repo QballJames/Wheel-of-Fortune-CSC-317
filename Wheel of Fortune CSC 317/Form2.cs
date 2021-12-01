@@ -32,6 +32,7 @@ namespace Wheel_of_Fortune_CSC_317
         int easyInt;
         Button[] letterBtn;
         Button[] wordBtn;
+        Button[] compBtn;
         player player1;
         Game game;
 
@@ -54,6 +55,8 @@ namespace Wheel_of_Fortune_CSC_317
 
             letterBtn = new Button[26];
             wordBtn = new Button[9];
+            compBtn = new Button[26];
+
 
             letterBtn[0] = button1;
             letterBtn[1] = button2;
@@ -92,6 +95,33 @@ namespace Wheel_of_Fortune_CSC_317
             wordBtn[7] = button8;
             wordBtn[8] = button9;
 
+            compBtn[0] = button1;
+            compBtn[1] = button2;
+            compBtn[2] = button3;
+            compBtn[3] = button4;
+            compBtn[4] = button5;
+            compBtn[5] = button6;
+            compBtn[6] = button7;
+            compBtn[7] = button8;
+            compBtn[8] = button9;
+            compBtn[9] = button10;
+            compBtn[10] = button11;
+            compBtn[11] = button12;
+            compBtn[12] = button13;
+            compBtn[13] = button14;
+            compBtn[14] = button15;
+            compBtn[15] = button16;
+            compBtn[16] = button17;
+            compBtn[17] = button18;
+            compBtn[18] = button19;
+            compBtn[19] = button20;
+            compBtn[20] = button21;
+            compBtn[21] = button22;
+            compBtn[22] = button23;
+            compBtn[23] = button24;
+            compBtn[24] = button25;
+            compBtn[25] = button26;
+
             for (int i = 0; i < 25; i++)
             {
                 letterBtn[i].IsAccessible = true;
@@ -104,7 +134,7 @@ namespace Wheel_of_Fortune_CSC_317
             gameTime = new Timer();
             gameTime.Interval = 100;
             gameTime.Tick += gameTime_Tick;
-            lblFeedback = player.guessFeedback[0];
+            lblFeedback.Text = game.guessFeedback[0];
 
             gameTime.Start();
         }
@@ -144,6 +174,7 @@ namespace Wheel_of_Fortune_CSC_317
                     if (btnObj.Text.Equals("A")
                         || btnObj.Text.Equals("E")
                         || btnObj.Text.Equals("I")
+                        || btnObj.Text.Equals("O")
                         || btnObj.Text.Equals("U")
                         || btnObj.Text.Equals("Y"))
                     {
@@ -171,7 +202,7 @@ namespace Wheel_of_Fortune_CSC_317
             }
         }
 
-        public Bitmap imageRotator()
+        public Bitmap rotateImage()
         {
             Bitmap rotatedImage = new Bitmap(pictureBox1.Width, pictureBox1.Height);
             using (Graphics g = Graphics.FromImage(rotatedImage))
@@ -181,14 +212,15 @@ namespace Wheel_of_Fortune_CSC_317
                 g.TranslateTransform(-pictureBox1.Width / 2, -pictureBox1.Height / 2);
                 g.DrawImage(fortuneWheel.tempPicture, new Point(0, 0));
             }
+            return rotatedImage;
         }
 
-        public static Bitmap imageRotator()
+        public static Bitmap RotateImage(Image image, float angle)
         {
-            return imageRotator(Image, new PointF((float)image.Width / 2, (float)Image.Height / 2), angle);
+            return RotateImage(image, new PointF((float)image.Width / 2, (float)image.Height / 2), angle);
         }
 
-        public static Bitmap imageRotator(Image image, PointF offset, float angle)
+        public static Bitmap RotateImage(Image image, PointF offset, float angle)
         {
             if (image == null)
                 throw new ArgumentNullException("image");
@@ -245,6 +277,165 @@ namespace Wheel_of_Fortune_CSC_317
                 fortuneWheel.spin -= 1;
             }
 
+            game.scorePossible = fortuneWheel.wheelValues[fortuneWheel.spin];
+            game.guessFeedback[2] = "Score possible: " + game.scorePossible;
+
+
+            if (wheelTime == 0)
+            {
+                wheelMoved = false;
+
+                for (int i = 0; i < letterBtn.Length; i++)
+                {
+                    if (letterBtn[i].IsAccessible)
+                    {
+                        letterBtn[i].Visible = true;
+                    }
+
+                    if(fortuneWheel.wheelValues[fortuneWheel.spin] == 0)
+                    {
+                        player1.playerScore = 0;
+                        game.setup = 1;
+                    }
+                    else
+                    {
+                        game.setup = 2;
+                    }
+
+                    wheelTimer.Stop();
+                }
+            }
+
+        }
+
+        private void gameTime_Tick(object sender, EventArgs e)
+        {
+
+            switch (game.setup)
+            {
+                case 1:
+                    setup1();
+                    break;
+                case 2:
+                    setup2();
+                    break;
+                case 3:
+                    setup3();
+                    break;
+            }
+
+            if (words.lettersGuessed > 0 && words.lettersGuessed == words.size)
+            {
+                player1.wordGuessed = true;
+                words.lettersGuessed = 0;
+            }
+
+            if (player1.wordGuessed)
+            {
+                gameTime.Stop();
+
+                if (DialogResult.OK == MessageBox.Show("You won: " + player1.playerScore + ". Do you want to play again? ", "Alert"
+                              , MessageBoxButtons.OKCancel, MessageBoxIcon.Question))
+                {
+                    System.Diagnostics.Process.Start(Application.ExecutablePath); // to start new instance of application
+                    this.Close();
+                }
+                else
+                {
+                    System.Windows.Forms.Application.Exit();
+                }
+                player1.wordGuessed = false;
+
+            }
+
+        }
+
+
+        public void setup1()
+        {
+            lblFeedback.Visible = true;
+
+            pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+
+            for (int i = 0; i < letterBtn.Length; i++)
+            {
+                letterBtn[i].Visible = false;
+            }
+
+        }
+
+        public void setup2()
+        {
+            lblFeedback.Visible = true;
+            lblFeedback.Text = game.guessFeedback[2];
+            pictureBox1.Click -= new System.EventHandler(this.pictureBox1_Click);
+
+            for (int i = 0; i < wordBtn.Length; i++)
+            {
+                if (wordBtn[i].IsAccessible)
+                {
+                    wordBtn[i].Enabled = false;
+                }
+
+            }
+
+            for (int i = 0; i < compBtn.Length; i++)
+            {
+                if (compBtn[i].IsAccessible)
+                {
+                    compBtn[i].Enabled = true;
+                    compBtn[i].Visible = true;
+                }
+                else
+                {
+                    compBtn[i].Enabled = false;
+                    compBtn[i].Visible = false;
+                }
+            }
+        }
+
+        public void setup3()
+        {
+            lblFeedback.Text = game.guessFeedback[1];
+            pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+
+            for (int i = 0; i < compBtn.Length; i++)
+            {
+                compBtn[i].Enabled = false;
+            }
+
+            if (player1.playerScore >= 300)
+            {
+                for (int i = 0; i < wordBtn.Length; i++) wordBtn[i].Enabled = true;
+            }
+            else
+            {
+                for (int i = 0; i < wordBtn.Length; i++) wordBtn[i].Enabled = false;
+            }
+
+            for (int i = 0; i < compBtn.Length; i++)
+            {
+                compBtn[i].Enabled = false;
+            }
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            wheelMoved = true;
+            Random rand = new Random();
+            wheelTime = rand.Next(150, 200);
+            startWheel = wheelTime;
+
+            for (int i = 0; i < letterBtn.Length; i++)
+            {
+                letterBtn[i].Visible = false;
+            }
+            wheelTimer.Start();
+
+        }
+
+        private void pictureBox1_Paint(object sender, EventArgs e)
+        {
 
         }
 

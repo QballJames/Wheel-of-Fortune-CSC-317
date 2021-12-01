@@ -117,11 +117,11 @@ namespace Wheel_of_Fortune_CSC_317
     {
         public Bitmap picture;
         public Bitmap tempPicture;
-        public int spin;
-        public int[] wheelValues;
         public float val;
-        
-        
+        public int[] wheelValues;
+        public int spin;
+
+
         public Wheel()
         {
             tempPicture = new Bitmap(Properties.Resources.wheel);
