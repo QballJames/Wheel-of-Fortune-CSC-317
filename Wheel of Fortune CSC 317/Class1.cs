@@ -117,7 +117,7 @@ namespace Wheel_of_Fortune_CSC_317
     {
         public Bitmap picture;
         public Bitmap tempPicture;
-        public int angle;
+        public int spin;
         public int[] wheelValues;
         public float val;
         
@@ -169,6 +169,11 @@ namespace Wheel_of_Fortune_CSC_317
                 "Oh no, you're Bankrupt!",
                 "This letter is not in the word."
             };
+        }
+
+        public void checkGame()
+        {
+
         }
 
     }
