@@ -61,6 +61,17 @@ namespace Wheel_of_Fortune_CSC_317
             this.lblP2Points = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.lblFeedback = new System.Windows.Forms.Label();
+            this.btnLtr1 = new System.Windows.Forms.Button();
+            this.btnLtr2 = new System.Windows.Forms.Button();
+            this.btnLtr3 = new System.Windows.Forms.Button();
+            this.btnLtr4 = new System.Windows.Forms.Button();
+            this.btnLtr5 = new System.Windows.Forms.Button();
+            this.btnLtr6 = new System.Windows.Forms.Button();
+            this.btnLtr7 = new System.Windows.Forms.Button();
+            this.btnLtr8 = new System.Windows.Forms.Button();
+            this.btnLtr9 = new System.Windows.Forms.Button();
+            this.lblWord = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -357,11 +368,133 @@ namespace Wheel_of_Fortune_CSC_317
             this.pictureBox1.TabIndex = 30;
             this.pictureBox1.TabStop = false;
             // 
+            // lblFeedback
+            // 
+            this.lblFeedback.AutoSize = true;
+            this.lblFeedback.Location = new System.Drawing.Point(26, 110);
+            this.lblFeedback.Name = "lblFeedback";
+            this.lblFeedback.Size = new System.Drawing.Size(81, 13);
+            this.lblFeedback.TabIndex = 32;
+            this.lblFeedback.Text = "feedback Label";
+            this.lblFeedback.Click += new System.EventHandler(this.label3_Click);
+            // 
+            // btnLtr1
+            // 
+            this.btnLtr1.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLtr1.Location = new System.Drawing.Point(386, 188);
+            this.btnLtr1.Name = "btnLtr1";
+            this.btnLtr1.Size = new System.Drawing.Size(30, 30);
+            this.btnLtr1.TabIndex = 33;
+            this.btnLtr1.Text = "*";
+            this.btnLtr1.UseVisualStyleBackColor = true;
+            // 
+            // btnLtr2
+            // 
+            this.btnLtr2.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLtr2.Location = new System.Drawing.Point(422, 188);
+            this.btnLtr2.Name = "btnLtr2";
+            this.btnLtr2.Size = new System.Drawing.Size(30, 30);
+            this.btnLtr2.TabIndex = 34;
+            this.btnLtr2.Text = "*";
+            this.btnLtr2.UseVisualStyleBackColor = true;
+            // 
+            // btnLtr3
+            // 
+            this.btnLtr3.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLtr3.Location = new System.Drawing.Point(458, 188);
+            this.btnLtr3.Name = "btnLtr3";
+            this.btnLtr3.Size = new System.Drawing.Size(30, 30);
+            this.btnLtr3.TabIndex = 35;
+            this.btnLtr3.Text = "*";
+            this.btnLtr3.UseVisualStyleBackColor = true;
+            // 
+            // btnLtr4
+            // 
+            this.btnLtr4.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLtr4.Location = new System.Drawing.Point(494, 188);
+            this.btnLtr4.Name = "btnLtr4";
+            this.btnLtr4.Size = new System.Drawing.Size(30, 30);
+            this.btnLtr4.TabIndex = 36;
+            this.btnLtr4.Text = "*";
+            this.btnLtr4.UseVisualStyleBackColor = true;
+            this.btnLtr4.Click += new System.EventHandler(this.button29_Click);
+            // 
+            // btnLtr5
+            // 
+            this.btnLtr5.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLtr5.Location = new System.Drawing.Point(530, 188);
+            this.btnLtr5.Name = "btnLtr5";
+            this.btnLtr5.Size = new System.Drawing.Size(30, 30);
+            this.btnLtr5.TabIndex = 37;
+            this.btnLtr5.Text = "*";
+            this.btnLtr5.UseVisualStyleBackColor = true;
+            // 
+            // btnLtr6
+            // 
+            this.btnLtr6.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLtr6.Location = new System.Drawing.Point(566, 188);
+            this.btnLtr6.Name = "btnLtr6";
+            this.btnLtr6.Size = new System.Drawing.Size(30, 30);
+            this.btnLtr6.TabIndex = 38;
+            this.btnLtr6.Text = "*";
+            this.btnLtr6.UseVisualStyleBackColor = true;
+            // 
+            // btnLtr7
+            // 
+            this.btnLtr7.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLtr7.Location = new System.Drawing.Point(602, 188);
+            this.btnLtr7.Name = "btnLtr7";
+            this.btnLtr7.Size = new System.Drawing.Size(30, 30);
+            this.btnLtr7.TabIndex = 39;
+            this.btnLtr7.Text = "*";
+            this.btnLtr7.UseVisualStyleBackColor = true;
+            // 
+            // btnLtr8
+            // 
+            this.btnLtr8.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLtr8.Location = new System.Drawing.Point(638, 188);
+            this.btnLtr8.Name = "btnLtr8";
+            this.btnLtr8.Size = new System.Drawing.Size(30, 30);
+            this.btnLtr8.TabIndex = 40;
+            this.btnLtr8.Text = "*";
+            this.btnLtr8.UseVisualStyleBackColor = true;
+            // 
+            // btnLtr9
+            // 
+            this.btnLtr9.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLtr9.Location = new System.Drawing.Point(674, 188);
+            this.btnLtr9.Name = "btnLtr9";
+            this.btnLtr9.Size = new System.Drawing.Size(30, 30);
+            this.btnLtr9.TabIndex = 41;
+            this.btnLtr9.Text = "*";
+            this.btnLtr9.UseVisualStyleBackColor = true;
+            // 
+            // lblWord
+            // 
+            this.lblWord.AutoSize = true;
+            this.lblWord.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblWord.Location = new System.Drawing.Point(449, 153);
+            this.lblWord.Name = "lblWord";
+            this.lblWord.Size = new System.Drawing.Size(183, 25);
+            this.lblWord.TabIndex = 42;
+            this.lblWord.Text = "Guess the word:";
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.lblWord);
+            this.Controls.Add(this.btnLtr9);
+            this.Controls.Add(this.btnLtr8);
+            this.Controls.Add(this.btnLtr7);
+            this.Controls.Add(this.btnLtr6);
+            this.Controls.Add(this.btnLtr5);
+            this.Controls.Add(this.btnLtr4);
+            this.Controls.Add(this.btnLtr3);
+            this.Controls.Add(this.btnLtr2);
+            this.Controls.Add(this.btnLtr1);
+            this.Controls.Add(this.lblFeedback);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.lblP2Points);
@@ -438,5 +571,16 @@ namespace Wheel_of_Fortune_CSC_317
         private System.Windows.Forms.Label lblP2Points;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Label lblFeedback;
+        private System.Windows.Forms.Button btnLtr1;
+        private System.Windows.Forms.Button btnLtr2;
+        private System.Windows.Forms.Button btnLtr3;
+        private System.Windows.Forms.Button btnLtr4;
+        private System.Windows.Forms.Button btnLtr5;
+        private System.Windows.Forms.Button btnLtr6;
+        private System.Windows.Forms.Button btnLtr7;
+        private System.Windows.Forms.Button btnLtr8;
+        private System.Windows.Forms.Button btnLtr9;
+        private System.Windows.Forms.Label lblWord;
     }
 }
