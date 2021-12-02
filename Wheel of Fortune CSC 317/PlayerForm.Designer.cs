@@ -48,7 +48,7 @@
             this.PlayerAmountQuestion.ForeColor = System.Drawing.Color.White;
             this.PlayerAmountQuestion.Location = new System.Drawing.Point(239, 35);
             this.PlayerAmountQuestion.Name = "PlayerAmountQuestion";
-            this.PlayerAmountQuestion.Size = new System.Drawing.Size(320, 39);
+            this.PlayerAmountQuestion.Size = new System.Drawing.Size(255, 31);
             this.PlayerAmountQuestion.TabIndex = 0;
             this.PlayerAmountQuestion.Text = "How many Players?";
             // 
@@ -92,6 +92,7 @@
             this.Player1NameTxt.Name = "Player1NameTxt";
             this.Player1NameTxt.Size = new System.Drawing.Size(140, 20);
             this.Player1NameTxt.TabIndex = 4;
+            this.Player1NameTxt.TextChanged += new System.EventHandler(this.Player1NameTxt_TextChanged);
             // 
             // Player2NameTxt
             // 
@@ -100,6 +101,7 @@
             this.Player2NameTxt.Name = "Player2NameTxt";
             this.Player2NameTxt.Size = new System.Drawing.Size(140, 20);
             this.Player2NameTxt.TabIndex = 5;
+            this.Player2NameTxt.TextChanged += new System.EventHandler(this.Player2NameTxt_TextChanged);
             // 
             // Player3NameTxt
             // 
@@ -108,15 +110,16 @@
             this.Player3NameTxt.Name = "Player3NameTxt";
             this.Player3NameTxt.Size = new System.Drawing.Size(140, 20);
             this.Player3NameTxt.TabIndex = 6;
+            this.Player3NameTxt.TextChanged += new System.EventHandler(this.Player3NameTxt_TextChanged);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Red;
-            this.label1.Location = new System.Drawing.Point(71, 183);
+            this.label1.Location = new System.Drawing.Point(90, 183);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(143, 25);
+            this.label1.Size = new System.Drawing.Size(113, 20);
             this.label1.TabIndex = 7;
             this.label1.Text = "Player 1 name:";
             // 
@@ -125,9 +128,9 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Yellow;
-            this.label2.Location = new System.Drawing.Point(327, 183);
+            this.label2.Location = new System.Drawing.Point(345, 183);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(143, 25);
+            this.label2.Size = new System.Drawing.Size(113, 20);
             this.label2.TabIndex = 8;
             this.label2.Text = "Player 2 name:";
             // 
@@ -136,9 +139,9 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Aqua;
-            this.label3.Location = new System.Drawing.Point(570, 183);
+            this.label3.Location = new System.Drawing.Point(583, 183);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(143, 25);
+            this.label3.Size = new System.Drawing.Size(113, 20);
             this.label3.TabIndex = 9;
             this.label3.Text = "Player 3 name:";
             // 

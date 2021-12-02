@@ -33,7 +33,10 @@ namespace Wheel_of_Fortune_CSC_317
         Button[] letterBtn;
         Button[] wordBtn;
         Button[] compBtn;
-        player player1;
+        PlayerClass player1;
+        PlayerClass player2;
+        PlayerClass player3;
+
         Game game;
 
 
@@ -44,7 +47,6 @@ namespace Wheel_of_Fortune_CSC_317
             fortuneWheel = new Wheel();
             words = new word(hiddenWord[easyInt]);
             txtBox = new txtBox[words.size];
-            player1 = new player("Player");
             wheelMoved = false;
             wheelTime = 100;
             InitializeComponent();
@@ -146,7 +148,12 @@ namespace Wheel_of_Fortune_CSC_317
 
         private void Form2_Load(object sender, EventArgs e)
         {
-
+            player1 = PlayerForm.player1;
+            player2 = PlayerForm.player2;
+            player3 = PlayerForm.player3;
+            Player1lbl.Text = $" {PlayerForm.player1.playerName} points: ";
+            Player2lbl.Text = $" {PlayerForm.player2.playerName} points: ";
+            Player3lbl.Text = $" {PlayerForm.player3.playerName} points: ";
         }
 
         private void label3_Click(object sender, EventArgs e)
@@ -154,12 +161,7 @@ namespace Wheel_of_Fortune_CSC_317
 
         }
 
-        private void button29_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void buttonHandle(object sender, EventArgs e)
+       /* private void buttonHandle(object sender, EventArgs e)
         {
             Boolean ifExist = false;
             Button btnObj = (Button)sender;
@@ -200,9 +202,9 @@ namespace Wheel_of_Fortune_CSC_317
                 game.guessWord = 0;
                 game.setup = 1;
             }
-        }
+        }*/
 
-        public Bitmap rotateImage()
+       /* public Bitmap rotateImage()
         {
             Bitmap rotatedImage = new Bitmap(pictureBox1.Width, pictureBox1.Height);
             using (Graphics g = Graphics.FromImage(rotatedImage))
@@ -213,7 +215,7 @@ namespace Wheel_of_Fortune_CSC_317
                 g.DrawImage(fortuneWheel.tempPicture, new Point(0, 0));
             }
             return rotatedImage;
-        }
+        }*/
 
         public static Bitmap RotateImage(Image image, float angle)
         {

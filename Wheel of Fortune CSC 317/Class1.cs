@@ -132,20 +132,7 @@ namespace Wheel_of_Fortune_CSC_317
         }
     }
 
-    class player
-    {
-        public String playerName;
-        public int playerScore;
-        public bool wordGuessed;
 
-        public player(string i)
-        {
-            playerName = i;
-            playerScore = 0;
-            wordGuessed = false;
-
-        }
-    }
 
     class Game
     {
@@ -171,14 +158,11 @@ namespace Wheel_of_Fortune_CSC_317
             };
         }
 
-        public void checkGame()
+       /* public void checkGame()
         {
 
-        }
+        }*/
 
     }
 
-    class Class1
-    {
-    }
 }
