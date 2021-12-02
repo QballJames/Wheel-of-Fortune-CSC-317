@@ -306,7 +306,7 @@ namespace Wheel_of_Fortune_CSC_317
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(12, 12);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(80, 13);
+            this.label1.Size = new System.Drawing.Size(91, 15);
             this.label1.TabIndex = 26;
             this.label1.Text = "Player 1 Points:";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -316,7 +316,7 @@ namespace Wheel_of_Fortune_CSC_317
             this.lblP1Points.AutoSize = true;
             this.lblP1Points.Location = new System.Drawing.Point(99, 13);
             this.lblP1Points.Name = "lblP1Points";
-            this.lblP1Points.Size = new System.Drawing.Size(48, 13);
+            this.lblP1Points.Size = new System.Drawing.Size(55, 15);
             this.lblP1Points.TabIndex = 27;
             this.lblP1Points.Text = "p1Points";
             // 
@@ -325,7 +325,7 @@ namespace Wheel_of_Fortune_CSC_317
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(233, 12);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(80, 13);
+            this.label2.Size = new System.Drawing.Size(91, 15);
             this.label2.TabIndex = 28;
             this.label2.Text = "Player 2 Points:";
             // 
@@ -334,7 +334,7 @@ namespace Wheel_of_Fortune_CSC_317
             this.lblP2Points.AutoSize = true;
             this.lblP2Points.Location = new System.Drawing.Point(320, 12);
             this.lblP2Points.Name = "lblP2Points";
-            this.lblP2Points.Size = new System.Drawing.Size(48, 13);
+            this.lblP2Points.Size = new System.Drawing.Size(55, 15);
             this.lblP2Points.TabIndex = 29;
             this.lblP2Points.Text = "p2Points";
             // 
@@ -343,7 +343,7 @@ namespace Wheel_of_Fortune_CSC_317
             this.lblFeedback.AutoSize = true;
             this.lblFeedback.Location = new System.Drawing.Point(26, 110);
             this.lblFeedback.Name = "lblFeedback";
-            this.lblFeedback.Size = new System.Drawing.Size(81, 13);
+            this.lblFeedback.Size = new System.Drawing.Size(91, 15);
             this.lblFeedback.TabIndex = 32;
             this.lblFeedback.Text = "feedback Label";
             this.lblFeedback.Click += new System.EventHandler(this.label3_Click);
@@ -368,6 +368,7 @@ namespace Wheel_of_Fortune_CSC_317
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 30;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click_1);
             // 
             // Form2
             // 

@@ -19,11 +19,16 @@ namespace Wheel_of_Fortune_CSC_317
 
         private void button1_Click(object sender, EventArgs e)
         {
-            this.Hide();
+             this.Hide();
 
-            Form2 f2 = new Form2();
+            PlayerForm f2 = new PlayerForm();
 
             f2.Show();
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -447,5 +447,10 @@ namespace Wheel_of_Fortune_CSC_317
         {
 
         }
+
+        private void pictureBox1_Click_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }
