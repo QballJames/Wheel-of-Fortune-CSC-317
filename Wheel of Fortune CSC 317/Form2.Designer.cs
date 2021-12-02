@@ -59,9 +59,9 @@ namespace Wheel_of_Fortune_CSC_317
             this.lblP1Points = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.lblP2Points = new System.Windows.Forms.Label();
+            this.lblFeedback = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.lblFeedback = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -74,6 +74,7 @@ namespace Wheel_of_Fortune_CSC_317
             this.LetterAbutton.TabIndex = 0;
             this.LetterAbutton.Text = "A";
             this.LetterAbutton.UseVisualStyleBackColor = true;
+            this.LetterAbutton.Click += new System.EventHandler(this.LetterAbutton_Click);
             // 
             // LetterBbutton
             // 
@@ -337,6 +338,16 @@ namespace Wheel_of_Fortune_CSC_317
             this.lblP2Points.TabIndex = 29;
             this.lblP2Points.Text = "p2Points";
             // 
+            // lblFeedback
+            // 
+            this.lblFeedback.AutoSize = true;
+            this.lblFeedback.Location = new System.Drawing.Point(26, 110);
+            this.lblFeedback.Name = "lblFeedback";
+            this.lblFeedback.Size = new System.Drawing.Size(81, 13);
+            this.lblFeedback.TabIndex = 32;
+            this.lblFeedback.Text = "feedback Label";
+            this.lblFeedback.Click += new System.EventHandler(this.label3_Click);
+            // 
             // pictureBox2
             // 
             this.pictureBox2.BackColor = System.Drawing.SystemColors.Control;
@@ -357,16 +368,6 @@ namespace Wheel_of_Fortune_CSC_317
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 30;
             this.pictureBox1.TabStop = false;
-            // 
-            // lblFeedback
-            // 
-            this.lblFeedback.AutoSize = true;
-            this.lblFeedback.Location = new System.Drawing.Point(26, 110);
-            this.lblFeedback.Name = "lblFeedback";
-            this.lblFeedback.Size = new System.Drawing.Size(81, 13);
-            this.lblFeedback.TabIndex = 32;
-            this.lblFeedback.Text = "feedback Label";
-            this.lblFeedback.Click += new System.EventHandler(this.label3_Click);
             // 
             // Form2
             // 

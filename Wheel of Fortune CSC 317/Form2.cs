@@ -58,7 +58,7 @@ namespace Wheel_of_Fortune_CSC_317
             compBtn = new Button[26];
 
 
-            letterBtn[0] = LetterAbutton;  // what does this do?
+            letterBtn[0] = LetterAbutton; 
             letterBtn[1] = LetterBbutton;
             letterBtn[2] = LetterCbutton;
             letterBtn[3] = LetterDbutton;
@@ -434,10 +434,6 @@ namespace Wheel_of_Fortune_CSC_317
 
         }
 
-        private void pictureBox1_Paint(object sender, EventArgs e)
-        {
-
-        }
 
         public void createWord()
         {
@@ -445,6 +441,11 @@ namespace Wheel_of_Fortune_CSC_317
             {
                 this.Controls.Add(words.txtBox[i]);
             }
+        }
+
+        private void LetterAbutton_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
