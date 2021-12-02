@@ -29,32 +29,32 @@ namespace Wheel_of_Fortune_CSC_317
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
-            this.button12 = new System.Windows.Forms.Button();
-            this.button13 = new System.Windows.Forms.Button();
-            this.button14 = new System.Windows.Forms.Button();
-            this.button15 = new System.Windows.Forms.Button();
-            this.button16 = new System.Windows.Forms.Button();
-            this.button17 = new System.Windows.Forms.Button();
-            this.button18 = new System.Windows.Forms.Button();
-            this.button19 = new System.Windows.Forms.Button();
-            this.button20 = new System.Windows.Forms.Button();
-            this.button21 = new System.Windows.Forms.Button();
-            this.button22 = new System.Windows.Forms.Button();
-            this.button23 = new System.Windows.Forms.Button();
-            this.button24 = new System.Windows.Forms.Button();
-            this.button25 = new System.Windows.Forms.Button();
-            this.button26 = new System.Windows.Forms.Button();
+            this.LetterAbutton = new System.Windows.Forms.Button();
+            this.LetterBbutton = new System.Windows.Forms.Button();
+            this.LetterCbutton = new System.Windows.Forms.Button();
+            this.LetterDbutton = new System.Windows.Forms.Button();
+            this.LetterEbutton = new System.Windows.Forms.Button();
+            this.LetterFbutton = new System.Windows.Forms.Button();
+            this.LetterGbutton = new System.Windows.Forms.Button();
+            this.LetterHbutton = new System.Windows.Forms.Button();
+            this.LetterIbutton = new System.Windows.Forms.Button();
+            this.LetterJbutton = new System.Windows.Forms.Button();
+            this.LetterKbutton = new System.Windows.Forms.Button();
+            this.LetterLbutton = new System.Windows.Forms.Button();
+            this.LetterMbutton = new System.Windows.Forms.Button();
+            this.LetterNbutton = new System.Windows.Forms.Button();
+            this.LetterObutton = new System.Windows.Forms.Button();
+            this.LetterPbutton = new System.Windows.Forms.Button();
+            this.LetterQbutton = new System.Windows.Forms.Button();
+            this.LetterRbutton = new System.Windows.Forms.Button();
+            this.LetterSbutton = new System.Windows.Forms.Button();
+            this.LetterTbutton = new System.Windows.Forms.Button();
+            this.LetterUbutton = new System.Windows.Forms.Button();
+            this.LetterVbutton = new System.Windows.Forms.Button();
+            this.LetterWbutton = new System.Windows.Forms.Button();
+            this.LetterXbutton = new System.Windows.Forms.Button();
+            this.LetterYbutton = new System.Windows.Forms.Button();
+            this.LetterZbutton = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.lblP1Points = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -66,239 +66,239 @@ namespace Wheel_of_Fortune_CSC_317
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // button1
+            // LetterAbutton
             // 
-            this.button1.Location = new System.Drawing.Point(310, 289);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(79, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "A";
-            this.button1.UseVisualStyleBackColor = true;
+            this.LetterAbutton.Location = new System.Drawing.Point(310, 289);
+            this.LetterAbutton.Name = "LetterAbutton";
+            this.LetterAbutton.Size = new System.Drawing.Size(79, 23);
+            this.LetterAbutton.TabIndex = 0;
+            this.LetterAbutton.Text = "A";
+            this.LetterAbutton.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // LetterBbutton
             // 
-            this.button2.Location = new System.Drawing.Point(391, 289);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(79, 23);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "B";
-            this.button2.UseVisualStyleBackColor = true;
+            this.LetterBbutton.Location = new System.Drawing.Point(391, 289);
+            this.LetterBbutton.Name = "LetterBbutton";
+            this.LetterBbutton.Size = new System.Drawing.Size(79, 23);
+            this.LetterBbutton.TabIndex = 1;
+            this.LetterBbutton.Text = "B";
+            this.LetterBbutton.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // LetterCbutton
             // 
-            this.button3.Location = new System.Drawing.Point(472, 289);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(79, 23);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "C";
-            this.button3.UseVisualStyleBackColor = true;
+            this.LetterCbutton.Location = new System.Drawing.Point(472, 289);
+            this.LetterCbutton.Name = "LetterCbutton";
+            this.LetterCbutton.Size = new System.Drawing.Size(79, 23);
+            this.LetterCbutton.TabIndex = 2;
+            this.LetterCbutton.Text = "C";
+            this.LetterCbutton.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // LetterDbutton
             // 
-            this.button4.Location = new System.Drawing.Point(553, 289);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(79, 23);
-            this.button4.TabIndex = 3;
-            this.button4.Text = "D";
-            this.button4.UseVisualStyleBackColor = true;
+            this.LetterDbutton.Location = new System.Drawing.Point(553, 289);
+            this.LetterDbutton.Name = "LetterDbutton";
+            this.LetterDbutton.Size = new System.Drawing.Size(79, 23);
+            this.LetterDbutton.TabIndex = 3;
+            this.LetterDbutton.Text = "D";
+            this.LetterDbutton.UseVisualStyleBackColor = true;
             // 
-            // button5
+            // LetterEbutton
             // 
-            this.button5.Location = new System.Drawing.Point(634, 289);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(79, 23);
-            this.button5.TabIndex = 4;
-            this.button5.Text = "E";
-            this.button5.UseVisualStyleBackColor = true;
+            this.LetterEbutton.Location = new System.Drawing.Point(634, 289);
+            this.LetterEbutton.Name = "LetterEbutton";
+            this.LetterEbutton.Size = new System.Drawing.Size(79, 23);
+            this.LetterEbutton.TabIndex = 4;
+            this.LetterEbutton.Text = "E";
+            this.LetterEbutton.UseVisualStyleBackColor = true;
             // 
-            // button6
+            // LetterFbutton
             // 
-            this.button6.Location = new System.Drawing.Point(715, 289);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(79, 23);
-            this.button6.TabIndex = 5;
-            this.button6.Text = "F";
-            this.button6.UseVisualStyleBackColor = true;
+            this.LetterFbutton.Location = new System.Drawing.Point(715, 289);
+            this.LetterFbutton.Name = "LetterFbutton";
+            this.LetterFbutton.Size = new System.Drawing.Size(79, 23);
+            this.LetterFbutton.TabIndex = 5;
+            this.LetterFbutton.Text = "F";
+            this.LetterFbutton.UseVisualStyleBackColor = true;
             // 
-            // button7
+            // LetterGbutton
             // 
-            this.button7.Location = new System.Drawing.Point(310, 318);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(79, 23);
-            this.button7.TabIndex = 6;
-            this.button7.Text = "G";
-            this.button7.UseVisualStyleBackColor = true;
+            this.LetterGbutton.Location = new System.Drawing.Point(310, 318);
+            this.LetterGbutton.Name = "LetterGbutton";
+            this.LetterGbutton.Size = new System.Drawing.Size(79, 23);
+            this.LetterGbutton.TabIndex = 6;
+            this.LetterGbutton.Text = "G";
+            this.LetterGbutton.UseVisualStyleBackColor = true;
             // 
-            // button8
+            // LetterHbutton
             // 
-            this.button8.Location = new System.Drawing.Point(391, 318);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(79, 23);
-            this.button8.TabIndex = 7;
-            this.button8.Text = "H";
-            this.button8.UseVisualStyleBackColor = true;
+            this.LetterHbutton.Location = new System.Drawing.Point(391, 318);
+            this.LetterHbutton.Name = "LetterHbutton";
+            this.LetterHbutton.Size = new System.Drawing.Size(79, 23);
+            this.LetterHbutton.TabIndex = 7;
+            this.LetterHbutton.Text = "H";
+            this.LetterHbutton.UseVisualStyleBackColor = true;
             // 
-            // button9
+            // LetterIbutton
             // 
-            this.button9.Location = new System.Drawing.Point(472, 318);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(79, 23);
-            this.button9.TabIndex = 8;
-            this.button9.Text = "I";
-            this.button9.UseVisualStyleBackColor = true;
+            this.LetterIbutton.Location = new System.Drawing.Point(472, 318);
+            this.LetterIbutton.Name = "LetterIbutton";
+            this.LetterIbutton.Size = new System.Drawing.Size(79, 23);
+            this.LetterIbutton.TabIndex = 8;
+            this.LetterIbutton.Text = "I";
+            this.LetterIbutton.UseVisualStyleBackColor = true;
             // 
-            // button10
+            // LetterJbutton
             // 
-            this.button10.Location = new System.Drawing.Point(553, 318);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(79, 23);
-            this.button10.TabIndex = 9;
-            this.button10.Text = "J";
-            this.button10.UseVisualStyleBackColor = true;
+            this.LetterJbutton.Location = new System.Drawing.Point(553, 318);
+            this.LetterJbutton.Name = "LetterJbutton";
+            this.LetterJbutton.Size = new System.Drawing.Size(79, 23);
+            this.LetterJbutton.TabIndex = 9;
+            this.LetterJbutton.Text = "J";
+            this.LetterJbutton.UseVisualStyleBackColor = true;
             // 
-            // button11
+            // LetterKbutton
             // 
-            this.button11.Location = new System.Drawing.Point(634, 318);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(79, 23);
-            this.button11.TabIndex = 10;
-            this.button11.Text = "K";
-            this.button11.UseVisualStyleBackColor = true;
+            this.LetterKbutton.Location = new System.Drawing.Point(634, 318);
+            this.LetterKbutton.Name = "LetterKbutton";
+            this.LetterKbutton.Size = new System.Drawing.Size(79, 23);
+            this.LetterKbutton.TabIndex = 10;
+            this.LetterKbutton.Text = "K";
+            this.LetterKbutton.UseVisualStyleBackColor = true;
             // 
-            // button12
+            // LetterLbutton
             // 
-            this.button12.Location = new System.Drawing.Point(715, 318);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(79, 23);
-            this.button12.TabIndex = 11;
-            this.button12.Text = "L";
-            this.button12.UseVisualStyleBackColor = true;
+            this.LetterLbutton.Location = new System.Drawing.Point(715, 318);
+            this.LetterLbutton.Name = "LetterLbutton";
+            this.LetterLbutton.Size = new System.Drawing.Size(79, 23);
+            this.LetterLbutton.TabIndex = 11;
+            this.LetterLbutton.Text = "L";
+            this.LetterLbutton.UseVisualStyleBackColor = true;
             // 
-            // button13
+            // LetterMbutton
             // 
-            this.button13.Location = new System.Drawing.Point(310, 347);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(79, 23);
-            this.button13.TabIndex = 12;
-            this.button13.Text = "M";
-            this.button13.UseVisualStyleBackColor = true;
+            this.LetterMbutton.Location = new System.Drawing.Point(310, 347);
+            this.LetterMbutton.Name = "LetterMbutton";
+            this.LetterMbutton.Size = new System.Drawing.Size(79, 23);
+            this.LetterMbutton.TabIndex = 12;
+            this.LetterMbutton.Text = "M";
+            this.LetterMbutton.UseVisualStyleBackColor = true;
             // 
-            // button14
+            // LetterNbutton
             // 
-            this.button14.Location = new System.Drawing.Point(391, 347);
-            this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(79, 23);
-            this.button14.TabIndex = 13;
-            this.button14.Text = "N";
-            this.button14.UseVisualStyleBackColor = true;
+            this.LetterNbutton.Location = new System.Drawing.Point(391, 347);
+            this.LetterNbutton.Name = "LetterNbutton";
+            this.LetterNbutton.Size = new System.Drawing.Size(79, 23);
+            this.LetterNbutton.TabIndex = 13;
+            this.LetterNbutton.Text = "N";
+            this.LetterNbutton.UseVisualStyleBackColor = true;
             // 
-            // button15
+            // LetterObutton
             // 
-            this.button15.Location = new System.Drawing.Point(472, 347);
-            this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(79, 23);
-            this.button15.TabIndex = 14;
-            this.button15.Text = "O";
-            this.button15.UseVisualStyleBackColor = true;
+            this.LetterObutton.Location = new System.Drawing.Point(472, 347);
+            this.LetterObutton.Name = "LetterObutton";
+            this.LetterObutton.Size = new System.Drawing.Size(79, 23);
+            this.LetterObutton.TabIndex = 14;
+            this.LetterObutton.Text = "O";
+            this.LetterObutton.UseVisualStyleBackColor = true;
             // 
-            // button16
+            // LetterPbutton
             // 
-            this.button16.Location = new System.Drawing.Point(553, 347);
-            this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(79, 23);
-            this.button16.TabIndex = 15;
-            this.button16.Text = "P";
-            this.button16.UseVisualStyleBackColor = true;
+            this.LetterPbutton.Location = new System.Drawing.Point(553, 347);
+            this.LetterPbutton.Name = "LetterPbutton";
+            this.LetterPbutton.Size = new System.Drawing.Size(79, 23);
+            this.LetterPbutton.TabIndex = 15;
+            this.LetterPbutton.Text = "P";
+            this.LetterPbutton.UseVisualStyleBackColor = true;
             // 
-            // button17
+            // LetterQbutton
             // 
-            this.button17.Location = new System.Drawing.Point(634, 347);
-            this.button17.Name = "button17";
-            this.button17.Size = new System.Drawing.Size(79, 23);
-            this.button17.TabIndex = 16;
-            this.button17.Text = "Q";
-            this.button17.UseVisualStyleBackColor = true;
+            this.LetterQbutton.Location = new System.Drawing.Point(634, 347);
+            this.LetterQbutton.Name = "LetterQbutton";
+            this.LetterQbutton.Size = new System.Drawing.Size(79, 23);
+            this.LetterQbutton.TabIndex = 16;
+            this.LetterQbutton.Text = "Q";
+            this.LetterQbutton.UseVisualStyleBackColor = true;
             // 
-            // button18
+            // LetterRbutton
             // 
-            this.button18.Location = new System.Drawing.Point(715, 347);
-            this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(79, 23);
-            this.button18.TabIndex = 17;
-            this.button18.Text = "R";
-            this.button18.UseVisualStyleBackColor = true;
+            this.LetterRbutton.Location = new System.Drawing.Point(715, 347);
+            this.LetterRbutton.Name = "LetterRbutton";
+            this.LetterRbutton.Size = new System.Drawing.Size(79, 23);
+            this.LetterRbutton.TabIndex = 17;
+            this.LetterRbutton.Text = "R";
+            this.LetterRbutton.UseVisualStyleBackColor = true;
             // 
-            // button19
+            // LetterSbutton
             // 
-            this.button19.Location = new System.Drawing.Point(310, 376);
-            this.button19.Name = "button19";
-            this.button19.Size = new System.Drawing.Size(79, 23);
-            this.button19.TabIndex = 18;
-            this.button19.Text = "S";
-            this.button19.UseVisualStyleBackColor = true;
+            this.LetterSbutton.Location = new System.Drawing.Point(310, 376);
+            this.LetterSbutton.Name = "LetterSbutton";
+            this.LetterSbutton.Size = new System.Drawing.Size(79, 23);
+            this.LetterSbutton.TabIndex = 18;
+            this.LetterSbutton.Text = "S";
+            this.LetterSbutton.UseVisualStyleBackColor = true;
             // 
-            // button20
+            // LetterTbutton
             // 
-            this.button20.Location = new System.Drawing.Point(391, 376);
-            this.button20.Name = "button20";
-            this.button20.Size = new System.Drawing.Size(79, 23);
-            this.button20.TabIndex = 19;
-            this.button20.Text = "T";
-            this.button20.UseVisualStyleBackColor = true;
+            this.LetterTbutton.Location = new System.Drawing.Point(391, 376);
+            this.LetterTbutton.Name = "LetterTbutton";
+            this.LetterTbutton.Size = new System.Drawing.Size(79, 23);
+            this.LetterTbutton.TabIndex = 19;
+            this.LetterTbutton.Text = "T";
+            this.LetterTbutton.UseVisualStyleBackColor = true;
             // 
-            // button21
+            // LetterUbutton
             // 
-            this.button21.Location = new System.Drawing.Point(472, 376);
-            this.button21.Name = "button21";
-            this.button21.Size = new System.Drawing.Size(79, 23);
-            this.button21.TabIndex = 20;
-            this.button21.Text = "U";
-            this.button21.UseVisualStyleBackColor = true;
+            this.LetterUbutton.Location = new System.Drawing.Point(472, 376);
+            this.LetterUbutton.Name = "LetterUbutton";
+            this.LetterUbutton.Size = new System.Drawing.Size(79, 23);
+            this.LetterUbutton.TabIndex = 20;
+            this.LetterUbutton.Text = "U";
+            this.LetterUbutton.UseVisualStyleBackColor = true;
             // 
-            // button22
+            // LetterVbutton
             // 
-            this.button22.Location = new System.Drawing.Point(553, 376);
-            this.button22.Name = "button22";
-            this.button22.Size = new System.Drawing.Size(79, 23);
-            this.button22.TabIndex = 21;
-            this.button22.Text = "V";
-            this.button22.UseVisualStyleBackColor = true;
+            this.LetterVbutton.Location = new System.Drawing.Point(553, 376);
+            this.LetterVbutton.Name = "LetterVbutton";
+            this.LetterVbutton.Size = new System.Drawing.Size(79, 23);
+            this.LetterVbutton.TabIndex = 21;
+            this.LetterVbutton.Text = "V";
+            this.LetterVbutton.UseVisualStyleBackColor = true;
             // 
-            // button23
+            // LetterWbutton
             // 
-            this.button23.Location = new System.Drawing.Point(634, 376);
-            this.button23.Name = "button23";
-            this.button23.Size = new System.Drawing.Size(79, 23);
-            this.button23.TabIndex = 22;
-            this.button23.Text = "W";
-            this.button23.UseVisualStyleBackColor = true;
+            this.LetterWbutton.Location = new System.Drawing.Point(634, 376);
+            this.LetterWbutton.Name = "LetterWbutton";
+            this.LetterWbutton.Size = new System.Drawing.Size(79, 23);
+            this.LetterWbutton.TabIndex = 22;
+            this.LetterWbutton.Text = "W";
+            this.LetterWbutton.UseVisualStyleBackColor = true;
             // 
-            // button24
+            // LetterXbutton
             // 
-            this.button24.Location = new System.Drawing.Point(715, 376);
-            this.button24.Name = "button24";
-            this.button24.Size = new System.Drawing.Size(79, 23);
-            this.button24.TabIndex = 23;
-            this.button24.Text = "X";
-            this.button24.UseVisualStyleBackColor = true;
+            this.LetterXbutton.Location = new System.Drawing.Point(715, 376);
+            this.LetterXbutton.Name = "LetterXbutton";
+            this.LetterXbutton.Size = new System.Drawing.Size(79, 23);
+            this.LetterXbutton.TabIndex = 23;
+            this.LetterXbutton.Text = "X";
+            this.LetterXbutton.UseVisualStyleBackColor = true;
             // 
-            // button25
+            // LetterYbutton
             // 
-            this.button25.Location = new System.Drawing.Point(310, 405);
-            this.button25.Name = "button25";
-            this.button25.Size = new System.Drawing.Size(79, 23);
-            this.button25.TabIndex = 24;
-            this.button25.Text = "Y";
-            this.button25.UseVisualStyleBackColor = true;
+            this.LetterYbutton.Location = new System.Drawing.Point(310, 405);
+            this.LetterYbutton.Name = "LetterYbutton";
+            this.LetterYbutton.Size = new System.Drawing.Size(79, 23);
+            this.LetterYbutton.TabIndex = 24;
+            this.LetterYbutton.Text = "Y";
+            this.LetterYbutton.UseVisualStyleBackColor = true;
             // 
-            // button26
+            // LetterZbutton
             // 
-            this.button26.Location = new System.Drawing.Point(395, 405);
-            this.button26.Name = "button26";
-            this.button26.Size = new System.Drawing.Size(79, 23);
-            this.button26.TabIndex = 25;
-            this.button26.Text = "Z";
-            this.button26.UseVisualStyleBackColor = true;
+            this.LetterZbutton.Location = new System.Drawing.Point(395, 405);
+            this.LetterZbutton.Name = "LetterZbutton";
+            this.LetterZbutton.Size = new System.Drawing.Size(79, 23);
+            this.LetterZbutton.TabIndex = 25;
+            this.LetterZbutton.Text = "Z";
+            this.LetterZbutton.UseVisualStyleBackColor = true;
             // 
             // label1
             // 
@@ -380,32 +380,32 @@ namespace Wheel_of_Fortune_CSC_317
             this.Controls.Add(this.label2);
             this.Controls.Add(this.lblP1Points);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.button26);
-            this.Controls.Add(this.button25);
-            this.Controls.Add(this.button24);
-            this.Controls.Add(this.button23);
-            this.Controls.Add(this.button22);
-            this.Controls.Add(this.button21);
-            this.Controls.Add(this.button20);
-            this.Controls.Add(this.button19);
-            this.Controls.Add(this.button18);
-            this.Controls.Add(this.button17);
-            this.Controls.Add(this.button16);
-            this.Controls.Add(this.button15);
-            this.Controls.Add(this.button14);
-            this.Controls.Add(this.button13);
-            this.Controls.Add(this.button12);
-            this.Controls.Add(this.button11);
-            this.Controls.Add(this.button10);
-            this.Controls.Add(this.button9);
-            this.Controls.Add(this.button8);
-            this.Controls.Add(this.button7);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.LetterZbutton);
+            this.Controls.Add(this.LetterYbutton);
+            this.Controls.Add(this.LetterXbutton);
+            this.Controls.Add(this.LetterWbutton);
+            this.Controls.Add(this.LetterVbutton);
+            this.Controls.Add(this.LetterUbutton);
+            this.Controls.Add(this.LetterTbutton);
+            this.Controls.Add(this.LetterSbutton);
+            this.Controls.Add(this.LetterRbutton);
+            this.Controls.Add(this.LetterQbutton);
+            this.Controls.Add(this.LetterPbutton);
+            this.Controls.Add(this.LetterObutton);
+            this.Controls.Add(this.LetterNbutton);
+            this.Controls.Add(this.LetterMbutton);
+            this.Controls.Add(this.LetterLbutton);
+            this.Controls.Add(this.LetterKbutton);
+            this.Controls.Add(this.LetterJbutton);
+            this.Controls.Add(this.LetterIbutton);
+            this.Controls.Add(this.LetterHbutton);
+            this.Controls.Add(this.LetterGbutton);
+            this.Controls.Add(this.LetterFbutton);
+            this.Controls.Add(this.LetterEbutton);
+            this.Controls.Add(this.LetterDbutton);
+            this.Controls.Add(this.LetterCbutton);
+            this.Controls.Add(this.LetterBbutton);
+            this.Controls.Add(this.LetterAbutton);
             this.Name = "Form2";
             this.Text = "Form2";
             this.Load += new System.EventHandler(this.Form2_Load);
@@ -418,32 +418,32 @@ namespace Wheel_of_Fortune_CSC_317
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.Button button10;
-        private System.Windows.Forms.Button button11;
-        private System.Windows.Forms.Button button12;
-        private System.Windows.Forms.Button button13;
-        private System.Windows.Forms.Button button14;
-        private System.Windows.Forms.Button button15;
-        private System.Windows.Forms.Button button16;
-        private System.Windows.Forms.Button button17;
-        private System.Windows.Forms.Button button18;
-        private System.Windows.Forms.Button button19;
-        private System.Windows.Forms.Button button20;
-        private System.Windows.Forms.Button button21;
-        private System.Windows.Forms.Button button22;
-        private System.Windows.Forms.Button button23;
-        private System.Windows.Forms.Button button24;
-        private System.Windows.Forms.Button button25;
-        private System.Windows.Forms.Button button26;
+        private System.Windows.Forms.Button LetterAbutton;
+        private System.Windows.Forms.Button LetterBbutton;
+        private System.Windows.Forms.Button LetterCbutton;
+        private System.Windows.Forms.Button LetterDbutton;
+        private System.Windows.Forms.Button LetterEbutton;
+        private System.Windows.Forms.Button LetterFbutton;
+        private System.Windows.Forms.Button LetterGbutton;
+        private System.Windows.Forms.Button LetterHbutton;
+        private System.Windows.Forms.Button LetterIbutton;
+        private System.Windows.Forms.Button LetterJbutton;
+        private System.Windows.Forms.Button LetterKbutton;
+        private System.Windows.Forms.Button LetterLbutton;
+        private System.Windows.Forms.Button LetterMbutton;
+        private System.Windows.Forms.Button LetterNbutton;
+        private System.Windows.Forms.Button LetterObutton;
+        private System.Windows.Forms.Button LetterPbutton;
+        private System.Windows.Forms.Button LetterQbutton;
+        private System.Windows.Forms.Button LetterRbutton;
+        private System.Windows.Forms.Button LetterSbutton;
+        private System.Windows.Forms.Button LetterTbutton;
+        private System.Windows.Forms.Button LetterUbutton;
+        private System.Windows.Forms.Button LetterVbutton;
+        private System.Windows.Forms.Button LetterWbutton;
+        private System.Windows.Forms.Button LetterXbutton;
+        private System.Windows.Forms.Button LetterYbutton;
+        private System.Windows.Forms.Button LetterZbutton;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label lblP1Points;
         private System.Windows.Forms.Label label2;
