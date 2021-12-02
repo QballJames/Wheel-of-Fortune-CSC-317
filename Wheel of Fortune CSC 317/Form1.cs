@@ -26,9 +26,9 @@ namespace Wheel_of_Fortune_CSC_317
             f2.Show();
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
+        private void QuitButton_Click(object sender, EventArgs e)
         {
-
+            Application.Exit();
         }
     }
 }

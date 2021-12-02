@@ -31,6 +31,7 @@ namespace Wheel_of_Fortune_CSC_317
         {
             this.button1 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.QuitButton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -58,7 +59,21 @@ namespace Wheel_of_Fortune_CSC_317
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
+            // QuitButton
+            // 
+            this.QuitButton.BackColor = System.Drawing.Color.Firebrick;
+            this.QuitButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.QuitButton.ForeColor = System.Drawing.Color.White;
+            this.QuitButton.Location = new System.Drawing.Point(713, 12);
+            this.QuitButton.Name = "QuitButton";
+            this.QuitButton.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.QuitButton.Size = new System.Drawing.Size(75, 26);
+            this.QuitButton.TabIndex = 2;
+            this.QuitButton.Text = "Quit";
+            this.QuitButton.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.QuitButton.UseVisualStyleBackColor = false;
+            this.QuitButton.Click += new System.EventHandler(this.QuitButton_Click);
             // 
             // Form1
             // 
@@ -66,6 +81,7 @@ namespace Wheel_of_Fortune_CSC_317
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.QuitButton);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.pictureBox1);
             this.Name = "Form1";
@@ -79,6 +95,7 @@ namespace Wheel_of_Fortune_CSC_317
 
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button QuitButton;
     }
 }
 

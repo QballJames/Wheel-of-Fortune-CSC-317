@@ -39,6 +39,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.ReadyButton = new System.Windows.Forms.Button();
+            this.QuitButton1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // PlayerAmountQuestion
@@ -157,12 +158,28 @@
             this.ReadyButton.UseVisualStyleBackColor = true;
             this.ReadyButton.Click += new System.EventHandler(this.ReadyButton_Click);
             // 
+            // QuitButton1
+            // 
+            this.QuitButton1.BackColor = System.Drawing.Color.Firebrick;
+            this.QuitButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.QuitButton1.ForeColor = System.Drawing.Color.White;
+            this.QuitButton1.Location = new System.Drawing.Point(713, 12);
+            this.QuitButton1.Name = "QuitButton1";
+            this.QuitButton1.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.QuitButton1.Size = new System.Drawing.Size(75, 26);
+            this.QuitButton1.TabIndex = 11;
+            this.QuitButton1.Text = "Quit";
+            this.QuitButton1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.QuitButton1.UseVisualStyleBackColor = false;
+            this.QuitButton1.Click += new System.EventHandler(this.QuitButton1_Click);
+            // 
             // PlayerForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.QuitButton1);
             this.Controls.Add(this.ReadyButton);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -194,5 +211,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button ReadyButton;
+        private System.Windows.Forms.Button QuitButton1;
     }
 }

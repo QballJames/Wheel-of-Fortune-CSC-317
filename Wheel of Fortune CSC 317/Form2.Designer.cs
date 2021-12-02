@@ -311,7 +311,6 @@ namespace Wheel_of_Fortune_CSC_317
             this.Player1lbl.Name = "Player1lbl";
             this.Player1lbl.Size = new System.Drawing.Size(0, 13);
             this.Player1lbl.TabIndex = 26;
-            this.Player1lbl.Click += new System.EventHandler(this.label1_Click);
             // 
             // lblP1Points
             // 

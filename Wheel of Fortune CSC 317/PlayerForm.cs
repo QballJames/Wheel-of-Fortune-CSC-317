@@ -56,7 +56,7 @@ namespace Wheel_of_Fortune_CSC_317
 
         private void Player3NameTxt_TextChanged(object sender, EventArgs e)
         {
-            Player3NameTxt.Text = Player3NameTxt.Text;
+            player3.playerName = Player3NameTxt.Text;
         }
         private void ReadyButton_Click(object sender, EventArgs e)
         {
@@ -65,5 +65,9 @@ namespace Wheel_of_Fortune_CSC_317
             this.Hide();
         }
 
+        private void QuitButton1_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
