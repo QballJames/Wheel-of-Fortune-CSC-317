@@ -58,7 +58,7 @@ namespace Wheel_of_Fortune_CSC_317
             compBtn = new Button[26];
 
 
-            letterBtn[0] = LetterAbutton;
+            letterBtn[0] = LetterAbutton;  // what does this do?
             letterBtn[1] = LetterBbutton;
             letterBtn[2] = LetterCbutton;
             letterBtn[3] = LetterDbutton;
