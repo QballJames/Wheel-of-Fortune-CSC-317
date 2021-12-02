@@ -55,7 +55,7 @@
             // One
             // 
             this.One.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.One.Location = new System.Drawing.Point(133, 102);
+            this.One.Location = new System.Drawing.Point(94, 102);
             this.One.Name = "One";
             this.One.Size = new System.Drawing.Size(95, 35);
             this.One.TabIndex = 1;
@@ -66,7 +66,7 @@
             // Two
             // 
             this.Two.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Two.Location = new System.Drawing.Point(357, 102);
+            this.Two.Location = new System.Drawing.Point(349, 102);
             this.Two.Name = "Two";
             this.Two.Size = new System.Drawing.Size(93, 35);
             this.Two.TabIndex = 2;
@@ -77,7 +77,7 @@
             // three
             // 
             this.three.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.three.Location = new System.Drawing.Point(622, 102);
+            this.three.Location = new System.Drawing.Point(597, 102);
             this.three.Name = "three";
             this.three.Size = new System.Drawing.Size(89, 35);
             this.three.TabIndex = 3;
@@ -88,7 +88,7 @@
             // Player1NameTxt
             // 
             this.Player1NameTxt.Enabled = false;
-            this.Player1NameTxt.Location = new System.Drawing.Point(119, 215);
+            this.Player1NameTxt.Location = new System.Drawing.Point(74, 215);
             this.Player1NameTxt.Name = "Player1NameTxt";
             this.Player1NameTxt.Size = new System.Drawing.Size(140, 20);
             this.Player1NameTxt.TabIndex = 4;
@@ -96,7 +96,7 @@
             // Player2NameTxt
             // 
             this.Player2NameTxt.Enabled = false;
-            this.Player2NameTxt.Location = new System.Drawing.Point(350, 215);
+            this.Player2NameTxt.Location = new System.Drawing.Point(330, 215);
             this.Player2NameTxt.Name = "Player2NameTxt";
             this.Player2NameTxt.Size = new System.Drawing.Size(140, 20);
             this.Player2NameTxt.TabIndex = 5;
@@ -104,7 +104,7 @@
             // Player3NameTxt
             // 
             this.Player3NameTxt.Enabled = false;
-            this.Player3NameTxt.Location = new System.Drawing.Point(611, 215);
+            this.Player3NameTxt.Location = new System.Drawing.Point(575, 215);
             this.Player3NameTxt.Name = "Player3NameTxt";
             this.Player3NameTxt.Size = new System.Drawing.Size(140, 20);
             this.Player3NameTxt.TabIndex = 6;
@@ -114,7 +114,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Red;
-            this.label1.Location = new System.Drawing.Point(114, 174);
+            this.label1.Location = new System.Drawing.Point(71, 183);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(143, 25);
             this.label1.TabIndex = 7;
@@ -125,7 +125,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Yellow;
-            this.label2.Location = new System.Drawing.Point(354, 183);
+            this.label2.Location = new System.Drawing.Point(327, 183);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(143, 25);
             this.label2.TabIndex = 8;
@@ -136,7 +136,7 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Aqua;
-            this.label3.Location = new System.Drawing.Point(608, 183);
+            this.label3.Location = new System.Drawing.Point(570, 183);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(143, 25);
             this.label3.TabIndex = 9;
@@ -145,9 +145,10 @@
             // ReadyButton
             // 
             this.ReadyButton.Enabled = false;
-            this.ReadyButton.Location = new System.Drawing.Point(345, 311);
+            this.ReadyButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ReadyButton.Location = new System.Drawing.Point(330, 314);
             this.ReadyButton.Name = "ReadyButton";
-            this.ReadyButton.Size = new System.Drawing.Size(75, 23);
+            this.ReadyButton.Size = new System.Drawing.Size(140, 65);
             this.ReadyButton.TabIndex = 10;
             this.ReadyButton.Text = "Ready!";
             this.ReadyButton.UseVisualStyleBackColor = true;
