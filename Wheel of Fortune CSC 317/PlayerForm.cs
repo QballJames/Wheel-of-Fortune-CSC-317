@@ -26,6 +26,10 @@ namespace Wheel_of_Fortune_CSC_317
         {
             Player1NameTxt.Enabled = true;
             ReadyButton.Enabled = true;
+
+            player2.playerName = "Sue";
+            player3.playerName = "Jim";
+
         }
 
         private void Two_Click(object sender, EventArgs e)
@@ -33,6 +37,8 @@ namespace Wheel_of_Fortune_CSC_317
             Player1NameTxt.Enabled = true;
             Player2NameTxt.Enabled = true;
             ReadyButton.Enabled = true;
+
+            player3.playerName = "Brad";
         }
 
         private void three_Click(object sender, EventArgs e)

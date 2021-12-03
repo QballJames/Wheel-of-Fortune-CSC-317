@@ -12,12 +12,11 @@ namespace Wheel_of_Fortune_CSC_317
             public int playerScore;
             public bool wordGuessed;
 
-          /*  public player(string i)
-            {
-                playerName = i;
-                playerScore = 0;
-                wordGuessed = false;
-
-            }*/
+        public PlayerClass()
+        {
+            playerName = " ";
+            playerScore = 0;
+            wordGuessed = false;
+        }
     }
 }

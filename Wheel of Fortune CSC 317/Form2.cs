@@ -147,9 +147,14 @@ namespace Wheel_of_Fortune_CSC_317
             player1 = PlayerForm.player1;
             player2 = PlayerForm.player2;
             player3 = PlayerForm.player3;
-            Player1lbl.Text = $" {PlayerForm.player1.playerName} points: ";
-            Player2lbl.Text = $" {PlayerForm.player2.playerName} points: ";
-            Player3lbl.Text = $" {PlayerForm.player3.playerName} points: ";
+            Player1lbl.Text = $" {PlayerForm.player1.playerName}'s points: ";
+            Player2lbl.Text = $" {PlayerForm.player2.playerName}'s points: ";
+            Player3lbl.Text = $" {PlayerForm.player3.playerName}'s points: ";
+
+            lblP1Points.Text = player1.playerScore.ToString();
+            lblP2Points.Text = player2.playerScore.ToString();
+            lbl3Points.Text = player3.playerScore.ToString();
+
         }
 
         private void label3_Click(object sender, EventArgs e)

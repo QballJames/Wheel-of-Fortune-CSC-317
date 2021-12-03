@@ -307,15 +307,18 @@ namespace Wheel_of_Fortune_CSC_317
             // Player1lbl
             // 
             this.Player1lbl.AutoSize = true;
+            this.Player1lbl.BackColor = System.Drawing.Color.Red;
             this.Player1lbl.Location = new System.Drawing.Point(12, 12);
             this.Player1lbl.Name = "Player1lbl";
-            this.Player1lbl.Size = new System.Drawing.Size(0, 13);
+            this.Player1lbl.Size = new System.Drawing.Size(19, 13);
             this.Player1lbl.TabIndex = 26;
+            this.Player1lbl.Text = "p1";
             // 
             // lblP1Points
             // 
             this.lblP1Points.AutoSize = true;
-            this.lblP1Points.Location = new System.Drawing.Point(89, 12);
+            this.lblP1Points.BackColor = System.Drawing.Color.Red;
+            this.lblP1Points.Location = new System.Drawing.Point(108, 12);
             this.lblP1Points.Name = "lblP1Points";
             this.lblP1Points.Size = new System.Drawing.Size(48, 13);
             this.lblP1Points.TabIndex = 27;
@@ -324,15 +327,18 @@ namespace Wheel_of_Fortune_CSC_317
             // Player2lbl
             // 
             this.Player2lbl.AutoSize = true;
-            this.Player2lbl.Location = new System.Drawing.Point(175, 12);
+            this.Player2lbl.BackColor = System.Drawing.Color.Yellow;
+            this.Player2lbl.Location = new System.Drawing.Point(236, 12);
             this.Player2lbl.Name = "Player2lbl";
-            this.Player2lbl.Size = new System.Drawing.Size(0, 13);
+            this.Player2lbl.Size = new System.Drawing.Size(19, 13);
             this.Player2lbl.TabIndex = 28;
+            this.Player2lbl.Text = "p2";
             // 
             // lblP2Points
             // 
             this.lblP2Points.AutoSize = true;
-            this.lblP2Points.Location = new System.Drawing.Point(246, 12);
+            this.lblP2Points.BackColor = System.Drawing.Color.Yellow;
+            this.lblP2Points.Location = new System.Drawing.Point(341, 12);
             this.lblP2Points.Name = "lblP2Points";
             this.lblP2Points.Size = new System.Drawing.Size(48, 13);
             this.lblP2Points.TabIndex = 29;
@@ -381,15 +387,18 @@ namespace Wheel_of_Fortune_CSC_317
             // Player3lbl
             // 
             this.Player3lbl.AutoSize = true;
-            this.Player3lbl.Location = new System.Drawing.Point(323, 12);
+            this.Player3lbl.BackColor = System.Drawing.Color.Aqua;
+            this.Player3lbl.Location = new System.Drawing.Point(469, 9);
             this.Player3lbl.Name = "Player3lbl";
-            this.Player3lbl.Size = new System.Drawing.Size(0, 13);
+            this.Player3lbl.Size = new System.Drawing.Size(19, 13);
             this.Player3lbl.TabIndex = 34;
+            this.Player3lbl.Text = "p3";
             // 
             // lbl3Points
             // 
             this.lbl3Points.AutoSize = true;
-            this.lbl3Points.Location = new System.Drawing.Point(435, 12);
+            this.lbl3Points.BackColor = System.Drawing.Color.Aqua;
+            this.lbl3Points.Location = new System.Drawing.Point(584, 12);
             this.lbl3Points.Name = "lbl3Points";
             this.lbl3Points.Size = new System.Drawing.Size(48, 13);
             this.lbl3Points.TabIndex = 35;
